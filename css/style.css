@@ -15,6 +15,11 @@
     margin: auto;
     position:relative;
 }
+.small-layout-container{
+    width: 70%;
+    margin: auto;
+    position:relative;
+}
 /* header formatting */
 header{
     width: 100%;
@@ -80,8 +85,8 @@ main{
     text-align: left;
 }
 h1{
-    font-size: 85px;
-    max-width: 1450px;
+    font-size: 70px;
+    max-width: 1250px;
     padding-top: 70px;
     display: inline-block;
 }
@@ -89,12 +94,11 @@ h1{
     height: 100%;
     max-width: 100%;
     position: relative;
-    bottom: -50px;
+    bottom: -90px;
 }
 .hero-left-col,
 .hero-right-col{    
     float: left;
-    height: 60vh;
 }
 .hero-left-col{
     width:40%;
@@ -111,13 +115,14 @@ h1{
     width: 100%;
     object-fit: cover;
 }
-/* 3-col-section */
-.three-col-sec{
-    background-color: white;
-    width: 100%;
-    height: 100vh;
-}
 .fa-arrow-down{
     padding-top: 50px ;
     font-size: 50px;
+}
+/* 3-col-section */
+.three-col-sec-container{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    margin-top: 250px;
 }
