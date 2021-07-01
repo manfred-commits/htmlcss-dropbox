@@ -76,7 +76,7 @@ main{
 /* hero of the page */
 .hero{
     background-color: #b4d0e7;
-    height: 95vh;
+    height: 90vh;
     text-align: left;
 }
 h1{
@@ -89,7 +89,7 @@ h1{
     height: 100%;
     max-width: 100%;
     position: relative;
-    bottom: -100px;
+    bottom: -50px;
 }
 .hero-left-col,
 .hero-right-col{    
@@ -97,18 +97,18 @@ h1{
     height: 60vh;
 }
 .hero-left-col{
-    width:30%;
+    width:40%;
 }
 .hero-btn{
     margin-top: 30px;
     margin-bottom: 10px;
 }
 .hero-right-col{
-    width: 70%;
+    width: 60%;
 }
 
 .hero-img{
-    height: 100%;
+    width: 100%;
     object-fit: cover;
 }
 /* 3-col-section */
