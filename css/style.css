@@ -76,12 +76,12 @@ main{
 /* hero of the page */
 .hero{
     background-color: #b4d0e7;
-    height: 90vh;
+    height: 95vh;
     text-align: left;
 }
 h1{
-    font-size: 72px;
-    max-width: 1300px;
+    font-size: 85px;
+    max-width: 1450px;
     padding-top: 70px;
     display: inline-block;
 }
