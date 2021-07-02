@@ -119,9 +119,8 @@ h1{
     padding-top: 40px;
     font-size: 40px;
 }
-/* 3-col-section */
+/* 4 columns/pricing section */
 .three-col-sec-container{
-    background-color: red;
     width: 100%;
     min-height: 1200px;
     margin-top: 150px;
@@ -179,6 +178,7 @@ div.radio-box span {
 }
 .column-formatting h4,
 .bottom-row h4{
+    display: inline-block;
     font-size: 30px;
 }
 .plan-price{
@@ -222,4 +222,30 @@ div.radio-box span {
     background-color: white;
     margin-top: 40px;
     width: 100%;
+    border: 1px solid #d0d0d3;
+}
+.bottom-formatting{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.enterprise-container{
+    position: relative;
+}
+.bottom-formatting span{
+    display: block;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.bottom-col-left p{
+    display: inline-block;
+}
+.bottom-formatting .btn-formatting{
+    width: 30%;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
 }
