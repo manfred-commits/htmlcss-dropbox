@@ -141,7 +141,7 @@ div.radio-box span {
 .singol-plan,
 .team-plan,
 .adv-plan{
-    min-height: 1100px;
+    min-height: 1000px;
     background-color: white;
     border: 1px solid #d0d0d3;
     float: left;
@@ -194,6 +194,11 @@ div.radio-box span {
     display: inline-block;
     margin: 10px 0;
 }
+.column-formatting .plan-privileges li span{
+    display: inline-block;
+    vertical-align: top;
+    width: 90%;
+}
 .columns-btn{
     text-align: center;
     display: inline-block;
@@ -209,4 +214,5 @@ div.radio-box span {
 }
 .fa-check{
     color: #2779ff;
+    vertical-align: middle;
 }
