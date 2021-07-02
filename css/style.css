@@ -273,7 +273,7 @@ div.radio-box span {
     object-fit: cover;
 }
 .partner-text{
-    padding: 50px;
+    width: 90%;
 }
 .partner-text h4{
     font-size: 30px;
@@ -319,4 +319,28 @@ div.radio-box span {
     color: #0061ff;
     display: inline-block;
     margin-bottom: 60px;
+}
+.left-client-box,
+.right-client-box{
+    width: 25%;
+    background-color: blueviolet;
+    float: left;
+}
+.left-client-box,
+.right-client-box,
+.center-client-box{
+    min-height: 300px;
+}
+
+.center-client-box{
+    width: 50%;
+    background-color: cyan;
+    float: left;
+    position: relative;
+}
+.center-client-box .centering img{
+    width: 30%;
+}
+.reviews-text{
+    width: 90%;
 }
