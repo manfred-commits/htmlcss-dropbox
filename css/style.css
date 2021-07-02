@@ -158,7 +158,8 @@ div.radio-box span {
     /* this property overlaps the border to the one of the container */
     margin: -1px;
 }
-.singol-plan .singol-header h6{
+.singol-plan .singol-header h6,
+.team-plan  .singol-header h6{
     font-weight: 400;
     font-size: 17px;   
     display: inline-block; 
