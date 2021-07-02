@@ -328,17 +328,17 @@ div.radio-box span {
 .left-client-box,
 .right-client-box,
 .center-client-box{
-    min-height: 350px;
+    min-height: 400px;
 }
 .images-container{
     float: left;
     width: 50%;
-    height: 175px;
+    min-height: 200px;
     position: relative;
 }
 .images-container img{
     object-fit: cover;
-    width: 100%;
+    max-width: 100%;
 }
 .green-box{
     background-color: #a2d39b;
@@ -385,4 +385,32 @@ div.radio-box span {
 }
 .yellow-box{
     background-color: #ffd830;
+}
+/* free trial section */
+.free-trial-container{
+    width: 100%;
+    min-height: 400px;
+    background-color: #b4d0e7;
+    position: relative;
+}
+.free-trial-box{
+    width: 70%;
+}
+.free-trial-box h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+    width: 60%;
+    color: #61082b;
+}
+.free-trial-box .btn-formatting{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+.free-trial-btn{
+    background-color: white;
+    color: black;
+    padding-right: 45px;
+    padding-left: 45px;
 }
