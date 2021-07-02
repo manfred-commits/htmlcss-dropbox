@@ -71,7 +71,7 @@ header div.btn-formatting{
     display: inline-block;
     background-color: #0061ff;
     color: white;
-    padding: 5px 20px;
+    padding: 7px 20px;
     line-height: normal;
 }
 /* main section */
@@ -103,7 +103,8 @@ h1{
 .hero-left-col{
     width:40%;
 }
-.hero-btn{
+.hero-btn,
+.columns-btn{
     margin-top: 30px;
     margin-bottom: 10px;
 }
@@ -180,4 +181,20 @@ div.radio-box span {
 .grey-text{
     font-size: 15px;
     color: #7c8995
+}
+.column-formatting .plan-privileges span{
+    display: inline-block;
+    margin: 10px 0;
+}
+.columns-btn{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.small-hr{
+    width: 20%;
+    padding: 25px 0;
+}
+.column-formatting h5{
+    
 }
