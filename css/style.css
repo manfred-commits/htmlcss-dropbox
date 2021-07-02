@@ -322,7 +322,7 @@ div.radio-box span {
 }
 .left-client-box,
 .right-client-box{
-    min-width: 400px;
+    width: 400px;
     float: left;
 }
 .left-client-box,
