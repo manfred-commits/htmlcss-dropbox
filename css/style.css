@@ -142,7 +142,7 @@ div.radio-box span {
 .singol-plan,
 .team-plan,
 .adv-plan{
-    height: 90vh;
+    height: 110vh;
     background-color: yellowgreen;
     border: 1px solid black;
     width: calc(100% / 3);
@@ -196,5 +196,9 @@ div.radio-box span {
     padding: 25px 0;
 }
 .column-formatting h5{
-    
+    font-size: 16px;
+    padding: 15px 0;
+}
+.fa-check{
+    color: blue;
 }
