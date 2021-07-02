@@ -81,7 +81,6 @@ main{
 /* hero of the page */
 .hero{
     background-color: #b4d0e7;
-    min-height: 680px;
     text-align: left;
 }
 h1{
@@ -94,7 +93,7 @@ h1{
     height: 100%;
     max-width: 100%;
     position: relative;
-    bottom: -90px;
+    bottom: -60px;
 }
 .hero-left-col,
 .hero-right-col{    
@@ -117,8 +116,8 @@ h1{
     object-fit: cover;
 }
 .fa-arrow-down{
-    padding-top: 50px ;
-    font-size: 50px;
+    padding-top: 40px;
+    font-size: 40px;
 }
 /* 3-col-section */
 .three-col-sec-container{
