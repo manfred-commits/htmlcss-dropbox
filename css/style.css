@@ -163,3 +163,21 @@ div.radio-box span {
     display: inline-block; 
     padding: 5px; 
 }
+.column-formatting{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.column-formatting h4{
+    font-size: 30px;
+}
+.plan-price{
+    display: inline-block;
+    width: 100%;
+    font-weight: 700;
+    padding: 8px 0;
+}
+.grey-text{
+    font-size: 15px;
+    color: #7c8995
+}
