@@ -322,7 +322,7 @@ div.radio-box span {
 }
 .left-client-box,
 .right-client-box{
-    width: 25%;
+    min-width: 400px;
     float: left;
 }
 .left-client-box,
@@ -332,7 +332,7 @@ div.radio-box span {
 }
 .images-container{
     float: left;
-    width: 50%;
+    min-width: 200px;
     min-height: 200px;
     position: relative;
 }
@@ -354,7 +354,7 @@ div.radio-box span {
     background-color: #ff1c1c;
 }
 .center-client-box{
-    width: 50%;
+    width: calc(100% - 800px);
     background-color: #f5f5f5;
     float: left;
     position: relative;
