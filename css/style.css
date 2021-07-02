@@ -142,7 +142,7 @@ div.radio-box span {
 .singol-plan,
 .team-plan,
 .adv-plan{
-    height: 110vh;
+    min-height: 1100px;
     background-color: white;
     border: 1px solid #d0d0d3;
     float: left;
@@ -191,7 +191,7 @@ div.radio-box span {
     font-size: 15px;
     color: #7c8995
 }
-.column-formatting .plan-privileges span{
+.column-formatting .plan-privileges li{
     display: inline-block;
     margin: 10px 0;
 }
