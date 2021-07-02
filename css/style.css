@@ -146,7 +146,7 @@ div.radio-box span {
 .singol-plan,
 .team-plan,
 .adv-plan{
-    min-height: 900px;
+    min-height: 1000px;
     background-color: white;
     border: 1px solid #d0d0d3;
     float: left;
