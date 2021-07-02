@@ -121,9 +121,9 @@ h1{
 }
 /* 3-col-section */
 .three-col-sec-container{
-    background-color: white;
+    background-color: red;
     width: 100%;
-    min-height: 1100px;
+    min-height: 1200px;
     margin-top: 150px;
 }
 
@@ -141,7 +141,7 @@ div.radio-box span {
 .singol-plan,
 .team-plan,
 .adv-plan{
-    min-height: 1000px;
+    min-height: 900px;
     background-color: white;
     border: 1px solid #d0d0d3;
     float: left;
@@ -177,7 +177,8 @@ div.radio-box span {
     margin: auto;
     margin-top: 20px;
 }
-.column-formatting h4{
+.column-formatting h4,
+.bottom-row h4{
     font-size: 30px;
 }
 .plan-price{
@@ -215,4 +216,10 @@ div.radio-box span {
 .fa-check{
     color: #2779ff;
     vertical-align: middle;
+}
+.bottom-row{
+    float: left;
+    background-color: white;
+    margin-top: 40px;
+    width: 100%;
 }
