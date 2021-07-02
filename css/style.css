@@ -132,9 +132,34 @@ h1{
 }
 .radio-box{
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 div.radio-box span {
     display: inline-block;
     padding-right: 10px;
+}
+.singol-plan,
+.team-plan,
+.adv-plan{
+    height: 90vh;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    width: calc(100% / 3);
+    float: left;
+}
+.team-plan{
+    margin: 0 20px;    
+    width: calc(100% / 3 - 40px);
+}
+.singol-header{
+    border: 1px solid black;
+    text-align: center;
+    /* this property overlaps the border to the one of the container */
+    margin: -1px;
+}
+.singol-plan .singol-header h6{
+    font-weight: 400;
+    font-size: 17px;   
+    display: inline-block; 
+    padding: 5px; 
 }
