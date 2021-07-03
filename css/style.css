@@ -247,6 +247,11 @@ div.radio-box span {
 .bottom-col-left p{
     display: inline-block;
 }
+.singol-header h6{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+}
 .bottom-formatting .btn-formatting{
     width: 30%;
     margin: 0;
@@ -436,10 +441,46 @@ div.radio-box span {
 .faq-left{
     display: inline-block;
 }
+/* faq-left e faq-right non si allineano con width:50%; su entrambi */
 .faq-left{
     text-align: left;
 }
 .faq-right{
     text-align: right;
     width: 50%;
+}
+
+/* footer section */
+footer{
+    background-color: black;
+    color: white;
+}
+.footer-formatting{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+footer .medium-layout-container ul li{
+    display: block;
+    padding: 5px 0;
+} 
+footer .medium-layout-container h6{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.footer-rows{
+    width: calc(100% / 5);
+    float: left;
+    margin-bottom: 70px;
+}
+.footer-hr{
+    width: 10%;
+    padding-bottom: 40px;
+}
+.language-selector{
+    line-height: 22px;
+    text-align: left;
+}
+.up-arrow{
+    display: inline-block;
+    vertical-align: middle;
 }
