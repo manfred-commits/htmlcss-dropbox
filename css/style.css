@@ -238,6 +238,9 @@ div.radio-box span {
     width: 100%;
     border: 1px solid #d0d0d3;
 }
+.bottom-row .singol-header{
+    padding: 5px;
+}
 .bottom-formatting{
     width: 95%;
     margin: auto;
@@ -469,6 +472,7 @@ div.radio-box span {
 }
 .faq-right{
     text-align: right;
+    width: 45%;
 }
 /* .fas-edit:before,
 .fa-chevron-down:before {
@@ -477,6 +481,7 @@ div.radio-box span {
 } */
 .faq-rule{
     width: 100%;
+    margin-top: 50px;
 }
 .faq-questions ul li:nth-child(even) {
     padding:0;
@@ -505,7 +510,7 @@ footer .medium-layout-container h6{
     margin-bottom: 70px;
 }
 .footer-hr{
-    width: 10%;
+    width: 8%;
     padding-bottom: 40px;
 }
 .language-selector{
