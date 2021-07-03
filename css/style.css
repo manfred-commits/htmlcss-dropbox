@@ -27,7 +27,7 @@
     position: absolute;
 }
 hr{
-    background-color: #dedee0;
+    background-color: #ececf0;
 }
 /* header formatting */
 header{
@@ -149,22 +149,22 @@ div.radio-box span {
 .singol-plan,
 .team-plan,
 .adv-plan{
-    min-height: 1000px;
+    min-height: 1050px;
     background-color: white;
     border: 1px solid #d0d0d3;
     float: left;
 }
 .singol-plan{
-    margin-right: 20px;
-    width: calc(100% / 3 - 20px);
+    margin-right: 40px;
+    width: calc(100% / 3 - 40px);
 }
 .team-plan{
-    margin: 0 10px;    
-    width: calc(100% / 3 - 20px);
+    margin: 0 20px;    
+    width: calc(100% / 3 - 40px);
 }
 .adv-plan{
-    margin-left: 20px;
-    width: calc(100% / 3 - 20px);
+    margin-left: 40px;
+    width: calc(100% / 3 - 40px);
 }
 .singol-header{
     border: 1px solid #d0d0d3;
