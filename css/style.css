@@ -26,8 +26,12 @@
     left: 50%;
     position: absolute;
 }
-hr{
-    background-color: #ececf0;
+/* general typography */
+h2{
+    font-size: 50px;
+}
+h4{
+    font-size: 30px;
 }
 /* header formatting */
 header{
@@ -139,10 +143,6 @@ h1{
     min-height: 1200px;
     margin-top: 150px;
 }
-
-.three-col-sec-container .small-layout-container h2{
-    font-size: 50px;
-}
 .radio-box{
     padding-top: 40px;
     padding-bottom: 30px;
@@ -193,7 +193,6 @@ div.radio-box span {
 .column-formatting h4,
 .bottom-row h4{
     display: inline-block;
-    font-size: 30px;
 }
 .plan-price{
     display: inline-block;
@@ -292,7 +291,6 @@ div.radio-box span {
     width: 90%;
 }
 .partner-text h4{
-    font-size: 30px;
     padding-bottom: 25px;
 }
 .partner-text p{
@@ -330,7 +328,6 @@ div.radio-box span {
     object-fit: cover; 
 }
 .business-box h4{
-    font-size: 30px;
     margin-bottom: 20px;
 }
 .business-box p span{
@@ -338,7 +335,6 @@ div.radio-box span {
 }
 /* clients section */
 .teams-header h2{
-    font-size: 50px;
     margin-bottom: 20px;
 }
 .teams-header a{
@@ -427,7 +423,6 @@ div.radio-box span {
     width: 70%;
 }
 .free-trial-box h2{
-    font-size: 50px;
     margin-bottom: 20px;
     width: 60%;
     color: #61082b;
