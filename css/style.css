@@ -366,9 +366,12 @@ div.radio-box span {
     object-fit: cover;
     max-width: 100%;
 }
+.images-container:hover{    
+    border: 10px solid rgba(255,255,255,0.5);
+}
 .green-box{
     background-color: #a2d39b;
-    border: 10px solid #d0e9cd;
+    /* border: 10px solid #d0e9cd; */
 }
 .amaranth-box{
    background-color: #61082b; 
