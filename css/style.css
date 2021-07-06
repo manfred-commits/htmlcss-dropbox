@@ -87,6 +87,9 @@ header div.btn-formatting{
     padding: 7px 20px;
     line-height: normal;
 }
+header li a:hover{    
+    text-decoration: underline;
+}
 /* main section */
 main{
     padding-top: 10vh;
@@ -114,19 +117,18 @@ h1{
     float: left;
 }
 .hero-left-col{
-    width:30%;
+    max-width:30%;
 }
 .hero-left-col div p{
     display: inline-block;
     max-width: 85%;
 }
-.hero-btn,
-.columns-btn{
+.normal-btn{
     margin-top: 30px;
     margin-bottom: 10px;
 }
 .hero-right-col{
-    width: 70%;
+    max-width: 70%;
 }
 
 .hero-img{
@@ -158,18 +160,16 @@ div.radio-box span {
     background-color: white;
     border: 1px solid #d0d0d3;
     float: left;
+    width: calc(100% / 3 - 40px);
 }
 .singol-plan{
-    margin-right: 40px;
-    width: calc(100% / 3 - 40px);
+    margin-right: 40px;    
 }
 .team-plan{
-    margin: 0 20px;    
-    width: calc(100% / 3 - 40px);
+    margin: 0 20px;
 }
 .adv-plan{
     margin-left: 40px;
-    width: calc(100% / 3 - 40px);
 }
 .singol-header{
     border: 1px solid #d0d0d3;
@@ -213,7 +213,7 @@ div.radio-box span {
     vertical-align: top;
     width: 90%;
 }
-.columns-btn{
+.column-formatting .normal-btn{
     text-align: center;
     display: inline-block;
     width: 100%;
@@ -462,12 +462,25 @@ div.radio-box span {
     border-top: 1px solid #dcdcde;
 }
 .faq-right,
-.faq-left{
-    float: left;
+.faq-left,
+.faq-hidden{
+    float: right;
     width: 50%;
 }
-/* faq-left e faq-right non si allineano con width:50%; su entrambi */
-.faq-left{
+.hidden-text{
+    width: 100%;
+}
+/* attempt at a drop down faq */
+/* #first-faq{
+    display: none;
+}
+
+#first-faq:target {
+    display: inline-block;
+}  */
+
+
+.faq-left{ 
     text-align: left;
 }
 .faq-right{
