@@ -470,14 +470,14 @@ div.radio-box span {
 .hidden-text{
     width: 100%;
 }
-/* attempt at a drop down faq */
-/* #first-faq{
+/*drop down faq with hover */
+.faq-hover{
     display: none;
 }
 
-#first-faq:target {
+.faq-questions li:hover .faq-hover{
     display: inline-block;
-}  */
+} 
 
 
 .faq-left{ 
@@ -487,11 +487,6 @@ div.radio-box span {
     text-align: right;
     padding-right: 25px;
 }
-/* .fas-edit:before,
-.fa-chevron-down:before {
-  content: "\f078";
-  text-align: right;
-} */
 .faq-rule{
     width: 100%;
     margin-top: 50px;
